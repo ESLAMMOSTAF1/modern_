@@ -1,0 +1,752 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img {
+    width: 100%;
+}
+
+.icon i {
+    position: absolute;
+    top: 25%;
+    left: 48%;
+    font-size: 100px;
+    color: aqua;
+    background-color: transparent;
+}
+
+.info h1 {
+    position: absolute;
+    top: 44%;
+    left: 40%;
+}
+
+.info p {
+    color: #9E9E9E;
+    position: absolute;
+    top: 58%;
+    left: 35%;
+}
+
+.info b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button button {
+    position: absolute;
+    top: 70%;
+    left: 41%;
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    border: none;
+}
+
+.butto_one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.butto_one button {
+    position: absolute;
+    top: 70%;
+    left: 53%;
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+.keep {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.keep h1 {
+    position: absolute;
+    top: 87%;
+    left: 43%;
+}
+
+.keep p {
+    position: absolute;
+    top: 100%;
+    left: 33%;
+    color: #9E9E9E;
+}
+
+.keep b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comp img {
+    width: 600px;
+    height: 425px;
+    position: absolute;
+    top: 122%;
+    left: -5%;
+}
+
+.advan {
+    position: absolute;
+    top: 122%;
+    left: 50%;
+}
+
+.advan p {
+    color: #9E9E9E;
+    margin-bottom: 80px;
+}
+
+.access h1 {
+    position: absolute;
+    top: 204%;
+    left: 47%;
+}
+
+.access P {
+    position: absolute;
+    top: 218%;
+    left: 35%;
+    color: #9E9E9E;
+}
+
+.access b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.access img {
+    width: 800px;
+    height: auto;
+    position: absolute;
+    top: 235%;
+    left: 20%;
+}
+
+.one h1 {
+    position: absolute;
+    top: 320%;
+    left: 40%;
+}
+
+.one p {
+    position: absolute;
+    top: 328%;
+    left: 43%;
+    color: #9E9E9E;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.parent .two {
+    position: absolute;
+    top: 345%;
+    left: 10%;
+}
+
+.two img {
+    position: absolute;
+    left: 45%;
+    top: -100%;
+}
+
+.two h3 {
+    text-align: center;
+}
+
+.two p {
+    text-align: center;
+    color: #9E9E9E;
+}
+
+.two b {
+    display: flex;
+    justify-content: center;
+    align-items: centers;
+}
+
+
+.parent .three {
+    position: absolute;
+    top: 345%;
+    left: 40%;
+}
+
+.three img {
+    position: absolute;
+    left: 40%;
+    top: -100%;
+}
+
+.three h3 {
+    text-align: center;
+}
+
+.three p {
+    text-align: center;
+    color: #9E9E9E;
+}
+
+.parent .four {
+    position: absolute;
+    top: 345%;
+    left: 75%;
+}
+
+.four img {
+    position: absolute;
+    left: 40%;
+    top: -100%;
+}
+
+.four h3 {
+    text-align: center;
+}
+
+.four p {
+    text-align: center;
+    color: #9E9E9E;
+}
+
+.parent_one {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px 20px;
+}
+
+.parent_one .five {
+    position: absolute;
+    top: 400%;
+    left: 10%;
+}
+
+.parent_one .six {
+    position: absolute;
+    top: 400%;
+    left: 30%;
+}
+
+.parent_one .seven {
+    position: absolute;
+    top: 400%;
+    left: 50%;
+}
+
+.parent_one .eight {
+    position: absolute;
+    top: 400%;
+    left: 70%;
+}
+
+.parent_one .nein {
+    position: absolute;
+    top: 400%;
+    left: 90%;
+}
+
+.clib h1 {
+    position: absolute;
+    top: 423%;
+    left: 40%;
+}
+
+.clib p {
+    position: absolute;
+    top: 437%;
+    left: 30%;
+}
+
+.clib b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dwon button {
+    position: absolute;
+    top: 450%;
+    left: 40%;
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: aqua;
+    color: white;
+    text-align: center;
+    border: none;
+}
+
+.dwon_one button {
+    position: absolute;
+    top: 450%;
+    left: 52%;
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+}
+
+.color {
+    width: 100%;
+    height: 150px;
+    background-color: #aaaaaa3d;
+    position: absolute;
+    top: 480%;
+}
+
+.color i {
+    position: absolute;
+    left: 16%;
+    top: 30%;
+    font-size: 50px;
+    color: aqua;
+    background-color: transparent;
+}
+
+.color .c {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    text-decoration: none;
+    color: #9E9E9E;
+}
+
+.color .d {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    text-decoration: none;
+    color: #9E9E9E;
+}
+
+.color .e {
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    text-decoration: none;
+    color: #9E9E9E;
+}
+
+.color .a {
+    position: absolute;
+    left: 28%;
+    top: 55%;
+    color: #9E9E9E;
+    text-decoration: none;
+}
+
+.color .b {
+    position: absolute;
+    top: 55%;
+    left: 41%;
+    color: #9E9E9E;
+    text-decoration: none;
+}
+
+.color a:hover {
+    color: aqua;
+}
+
+.media {
+    display: flex;
+}
+
+.media i:hover {
+    color: aqua;
+}
+
+.media .feat {
+    position: absolute;
+    top: 486%;
+    left: 75%;
+}
+
+.feat i {
+    font-size: 30px;
+}
+
+.media .feat_one {
+    position: absolute;
+    top: 486%;
+    left: 80%;
+}
+
+.feat_one i {
+    font-size: 30px;
+}
+
+.feat_two {
+    position: absolute;
+    top: 486%;
+    left: 85%;
+}
+
+.feat_two i {
+    font-size: 30px;
+}
+
+@media (max-width: 767px) {
+    .icon img {
+        width: 100%;
+    }
+
+    .icon i {
+        position: absolute;
+        top: 3%;
+        left: 43%;
+        font-size: 60px;
+    }
+
+    .info h1 {
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        font-size: 29px;
+    }
+
+    .info h1 b {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info p {
+        position: absolute;
+        top: 33%;
+        left: 15%;
+        font-size: 17px;
+    }
+
+    .button button {
+        position: absolute;
+        top: 55%;
+        left: 20%;
+        width: 240px;
+    }
+
+    .butto_one button {
+        position: absolute;
+        top: 65%;
+        left: 20%;
+        width: 240px;
+    }
+
+    .keep h1 {
+        position: absolute;
+        top: 83%;
+        left: 19%;
+        font-size: 26px;
+    }
+
+
+    .keep h1 b {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .keep p {
+        position: absolute;
+        top: 95%;
+        left: 11%;
+        font-size: 16px;
+    }
+
+    .comp img {
+        width: 270px;
+        height: 200px;
+        position: absolute;
+        top: 122%;
+        left: 14%;
+    }
+
+    .advan {
+        position: absolute;
+        top: 160%;
+        left: 10%;
+        font-size: 16px;
+    }
+
+    .advan h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .access h1 {
+        position: absolute;
+        top: 235%;
+        left: 25%;
+        font-size: 23px;
+    }
+
+    .access h1 b {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .access P {
+        position: absolute;
+        top: 246%;
+        left: 12%;
+        font-size: 20px;
+    }
+
+    .access img {
+        width: 270px;
+        height: auto;
+        position: absolute;
+        top: 270%;
+        left: 15%;
+    }
+
+    .one h1 {
+        position: absolute;
+        top: 315%;
+        left: 15%;
+        font-size: 30px;
+    }
+
+    .one h1 b {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .one p {
+        position: absolute;
+        top: 330%;
+        left: 15%;
+        font-size: 18px;
+    }
+
+    .one p b {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .parent .two {
+        position: absolute;
+        top: 359%;
+        left: 8%;
+    }
+
+    .two img {
+
+        position: absolute;
+        left: 38%;
+        top: -130%;
+
+    }
+
+    .two h3 {
+        position: absolute;
+        top: -40%;
+        left: 24%;
+    }
+
+    .parent .three {
+        position: absolute;
+        top: 381%;
+        left: 8%;
+    }
+
+    .three img {
+        position: absolute;
+        top: -170%;
+    }
+
+    .three h3 {
+        position: absolute;
+        top: -78%;
+        left: 17%;
+    }
+
+    .parent .four {
+        position: absolute;
+        top: 400%;
+        left: 6%;
+    }
+
+    .four img {
+        position: absolute;
+        left: 40%;
+        top: -160%;
+    }
+
+    .four h3 {
+        position: absolute;
+        left: 27%;
+        top: -58%;
+    }
+
+    .parent_one .five {
+        position: absolute;
+        top: 415%;
+        left: 30%;
+    }
+
+    .parent_one .six {
+        position: absolute;
+        top: 430%;
+        left: 35%;
+    }
+
+    .parent_one .seven {
+        position: absolute;
+        top: 445%;
+        left: 30%;
+    }
+
+    .parent_one .eight {
+        position: absolute;
+        top: 459%;
+        left: 33%;
+    }
+
+    .parent_one .nein {
+        position: absolute;
+        top: 473%;
+        left: 30%;
+    }
+
+    .clib h1 {
+        position: absolute;
+        top: 490%;
+        left: 15%;
+        font-size: 26px;
+    }
+
+    .clib h1 b {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .clib p {
+        position: absolute;
+        top: 505%;
+        left: 10%;
+        font-size: 16px;
+    }
+
+    .dwon button {
+        position: absolute;
+        top: 522%;
+        left: 20%;
+        width: 240px;
+    }
+
+    .dwon_one button {
+        position: absolute;
+        top: 532%;
+        left: 20%;
+        width: 240px;
+    }
+
+    .color {
+        width: 100%;
+        height: 320px;
+        position: absolute;
+        top: 560%;
+    }
+
+    .color i {
+        position: absolute;
+        left: 44%;
+        top: 10%;
+    }
+
+    .color .c {
+        position: absolute;
+        top: 33%;
+        left: 46%;
+    }
+
+    .color .d {
+        position: absolute;
+        top: 42%;
+        left: 39%;
+    }
+
+    .color .e {
+        position: absolute;
+        top: 51%;
+        left: 40%;
+    }
+
+    .color .a {
+        position: absolute;
+        left: 43%;
+        top: 60%;
+    }
+
+    .color .b {
+        position: absolute;
+        top: 69%;
+        left: 45%;
+    }
+
+    .media .feat {
+        position: absolute;
+        top: 600%;
+        left: 30%;
+    }
+
+    .media .feat_one {
+        position: absolute;
+        top: 600%;
+        left: 50%;
+    }
+
+    .feat_two {
+        position: absolute;
+        top: 600%;
+        left: 70%;
+    }
+}
+
+
+@media (max-width: 992px) {}
+
+@media (min-width: 1200px) {}
